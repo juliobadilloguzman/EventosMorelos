@@ -1,0 +1,59 @@
+html,
+body,
+header,
+#intro, #intro2 {
+    height: 100%;
+}
+
+#mostRecent{
+    height: 80vh;
+}
+
+
+#intro, #intro2 {
+    background: url("../img/banner2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#btn-buscar{
+    background-color: rgba(219, 50, 149, 0.7) !important;
+    color:white !important;
+}
+
+#mostRecent {
+    background: url("../img/eventRecent2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#demo{
+    font-size: 40px;
+    color:white;
+}
+
+/* MEDIA QUERIES */
+
+.top-nav-collapse {
+    background-color: rgb(0, 115, 247);
+    color:#000;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: rgb(0, 115, 247);
+        color: #000 !important;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: rgb(0, 115, 247);
+        color: #000 !important;
+    }
+}
