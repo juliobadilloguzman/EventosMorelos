@@ -1,9 +1,11 @@
 php_flag display_errors on
 
 RewriteEngine on
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteRule ^eventos/([0-9]+)$ controller/evento.php?eventid=$1 [L]
 RewriteRule ^eventos$ controller/evento.php [L] 
 RewriteRule ^eventos/page/([0-9]+)$ controller/evento.php?page=$1 [L]
+
